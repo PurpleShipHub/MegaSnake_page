@@ -95,7 +95,7 @@ body { display:flex; justify-content:center; align-items:center; }
 #canvas { width:min(100vw, calc(100vh * 9 / 16), 720px); height:min(100vh, calc(100vw * 16 / 9), 1280px); box-shadow:0 18px 60px rgba(0,0,0,.45); border-radius:18px; background:#071110; }
 .godot { background:#071110; }
 </style>
-		<meta name="description" content="MegaSnake Godot HTML5 QA build"><link rel="icon" href="favicon.png?v=0.1.14">
+		<meta name="description" content="MegaSnake Godot HTML5 QA build"><link rel="icon" href="favicon.png?v=0.1.15">
 	</head>
 	<body>
 		<canvas id="canvas" width="720" height="1280">
@@ -112,9 +112,9 @@ body { display:flex; justify-content:center; align-items:center; }
 			<div id="status-notice"></div>
 		</div>
 
-		<script src="megasnake.js?v=0.1.14"></script>
+		<script src="megasnake.js?v=0.1.15"></script>
 		<script>
-const MEGASNAKE_BUILD_VERSION = '0.1.14';
+const MEGASNAKE_BUILD_VERSION = '0.1.15';
 (function () {
   const addBust = (url) => {
     if (typeof url !== 'string') return url;
@@ -132,7 +132,7 @@ const MEGASNAKE_BUILD_VERSION = '0.1.14';
     return originalOpen.call(this, method, addBust(url), ...rest);
   };
 })();
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"executable":"megasnake","experimentalVK":false,"fileSizes":{"megasnake.pck":302808,"megasnake.wasm":37700666},"focusCanvas":true,"gdextensionLibs":[]};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"executable":"megasnake","experimentalVK":false,"fileSizes":{"megasnake.pck":303544,"megasnake.wasm":37700666},"focusCanvas":true,"gdextensionLibs":[]};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
